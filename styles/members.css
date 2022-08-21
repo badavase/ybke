@@ -1,97 +1,66 @@
-header {
-	margin-top: 3em;
-
+div img,
+div img:hover {
+  transition: 0.5s ease-in-out;
 }
-
+div,
+footer {
+  text-align: center;
+}
+header {
+  margin-top: 3em;
+}
 main {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px;
   justify-content: center;
   flex-wrap: wrap;
-	margin: 6em;
+  margin: 0 6em 6em;
 }
-
 div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-	background-color: #71529E;
-	color: rgb(248, 241, 255);
-	display: inline-block;
-	padding: 2em;
-	margin: 0.8em 0.8em;
-	border-radius: 16px;
-	text-align: center;
-	width: 14em;
-	box-shadow: 6px 6px 12px rgba(122, 74, 218, 0.2);
+  background-color: #724bad;
+  color: #f8f1ff;
+  display: inline-block;
+  padding: 2em;
+  margin: 0.8em;
+  border-radius: 16px;
+  box-shadow: 6px 6px 12px rgba(122, 74, 218, 0.2);
 }
-
-main {
-	margin-top: 0;
-}
-
 div img {
   width: 200px;
-	border-radius: 100px;
-	transition: 0.5s ease-in-out;
+  border-radius: 100px;
 }
 div img:hover {
-	transition: 0.5s ease-in-out;
-	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
 }
-
 div a {
-	all: unset;
+  all: unset;
 }
-
-div p{
+div h2 {
+  text-transform: capitalize;
+}
+div p {
   color: #d3d3d3;
 }
-
-
-div a:hover,
-div a:active {
-	cursor: pointer;
+div a:active,
+div a:hover {
+  cursor: pointer;
 }
-
 footer p a {
-	text-decoration: none;
+  text-decoration: none;
 }
-
-footer p a:hover,
-footer p a:active {
+footer p a:active,
+footer p a:hover {
   text-decoration: underline;
 }
-
-footer{
-  text-align: center;
+footer {
   font-weight: 400;
   margin-bottom: 100px;
 }
-footer a{
+footer a {
   font-size: 2em;
   padding-bottom: 3em;
-
 }
-footer p{
+footer p {
   margin: 0.5em auto;
 }
-
-
-/* @media (max-width: 555px) {
-  div{
-    padding: 1em;
-    margin: 0.4em 0.4em;
-    border-radius: 8px;
-    text-align: center;
-    width: 7em;
-    box-shadow: 3px 3px 6px rgba(122, 74, 218, 0.2);
-  }
-    main {
-      margin: 3em;
-    }
-    div img {
-      width: 100px;
-      border-radius: 50px;
-    }
-    
-}  */
