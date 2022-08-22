@@ -12,23 +12,22 @@ header {
 main {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 10px;
+  gap: 1rem;
   justify-content: center;
   flex-wrap: wrap;
   margin: 0 6em 6em;
 }
 div {
-  background-color: #724bad;
-  color: #f8f1ff;
+  background: radial-gradient(#b0f3f1, #ffcfdf);
+  color: #111111;
   display: inline-block;
   padding: 2em;
-  margin: 0.8em;
   border-radius: 16px;
-  box-shadow: 6px 6px 12px rgba(122, 74, 218, 0.2);
 }
 div img {
   width: 200px;
   border-radius: 100px;
+  margin-bottom: 1rem;
 }
 div img:hover {
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
@@ -38,9 +37,13 @@ div a {
 }
 div h2 {
   text-transform: capitalize;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 div p {
-  color: #d3d3d3;
+  color: #3a3a3a;
+  font-size: 1rem;
+  margin-top: 0;
 }
 div a:active,
 div a:hover {
@@ -60,6 +63,7 @@ footer {
 footer a {
   font-size: 2em;
   padding-bottom: 3em;
+  color: #f3f3f3;
 }
 footer p {
   margin: 0.5em auto;
