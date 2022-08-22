@@ -1,12 +1,12 @@
 main h1{
-  margin: 4rem 3rem 0 3rem;
+  margin: 2rem 3rem 0 3rem;
 }
 main{
   display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
-  margin: 2.2em auto;
+  margin: 2em auto;
 }
 
 main section {
@@ -16,7 +16,7 @@ main section {
   margin-top: 3rem;
   background-color: rgba(230, 230, 230, 0.7);
   box-sizing: border-box;
-  text-align: left;
+  text-align: justify;
   padding: 2em;
   border-radius: 10px;
   margin-bottom: 4rem;
@@ -62,6 +62,7 @@ main section a:active {
 
 footer {
   text-align: center;
+  margin-bottom: 4rem;
 }
 
 footer a{
@@ -83,7 +84,7 @@ footer a:active{
 footer p{
   margin: 0.5rem;
 }
-
+footer
 #last-paragraph{
   display: inline-block;
   margin-right: 1rem ;
